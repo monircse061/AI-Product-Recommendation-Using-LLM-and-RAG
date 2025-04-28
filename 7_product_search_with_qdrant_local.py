@@ -27,7 +27,7 @@ def search_qdrant(query, top_k=5):
     
     hits = qdrant_client.search(
         collection_name=COLLECTION_NAME,
-        query_vector=query_vector,  # ✅ No named vector
+        query_vector=query_vector,  
         limit=top_k
     )
     return [hit.payload for hit in hits]
