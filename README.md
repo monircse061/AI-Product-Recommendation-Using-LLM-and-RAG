@@ -27,7 +27,7 @@ An on-premise AI system developed in collaboration with **Narosu Co., Ltd.** to 
 - **LLaMA 3.1 8B** generates intelligent alternative recommendations.
 - Final Output includes: Product Code, Title, Price, Shipping Cost, Origin, and Product Image.
 
-![System Diagram](./path-to-your-image/system-architecture.png)
+![System Diagram](https://github.com/user-attachments/assets/16fec1e9-113e-4cc9-b0b0-1862298d3889)
 
 ---
 
@@ -57,7 +57,7 @@ An on-premise AI system developed in collaboration with **Narosu Co., Ltd.** to 
 - Interactive chatbot provides product suggestions based on user queries.
 - Displays multiple images and product details.
 
-![Chatbot Sample Output](./path-to-your-image/sample-output.png)
+![Chatbot UI](https://github.com/user-attachments/assets/fd7570dd-8416-4856-99e4-1c52efa14471)
 
 ---
 
@@ -71,5 +71,6 @@ An on-premise AI system developed in collaboration with **Narosu Co., Ltd.** to 
 # 📈 Project Goal
 
 Deliver a high-performance, multilingual AI-based product search and recommendation system, using cutting-edge **LLM** and **RAG** techniques, optimized for independent online stores.
+![Chatbot Sample Output](https://github.com/user-attachments/assets/f634e1c3-4237-499c-9370-aeeaf4926224)
 
 ---
