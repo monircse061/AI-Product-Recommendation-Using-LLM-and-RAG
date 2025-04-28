@@ -22,7 +22,7 @@ def embed_query(client, query, model="text-embedding-ada-002"):
 
 # -------------------- 3. Search in Qdrant --------------------
 def search_products(client, user_query, top_k=5):
-    # ✅ Fix: Pass client here
+    # Fix: Pass client here
     query_vector = embed_query(client, user_query)
 
     # Perform vector search
@@ -57,4 +57,4 @@ for i, item in enumerate(results):
     print(f"가격: {item['가격']}원 / 배송비: {item['배송비']}원")
     print(f"원산지: {item['원산지']}")
     print(f"이미지 URL: {item['이미지']}")
-    print(f"✅ Similarity Score: {item['score']:.4f}")
+    print(f"Similarity Score: {item['score']:.4f}")
