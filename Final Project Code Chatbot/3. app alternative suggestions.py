@@ -98,7 +98,7 @@ def response(state: AppState):
 # ----------------Initialize the ChatGroq model with LLaMA model parameters-----------    
 llm = ChatGroq(
     temperature=0,
-    groq_api_key="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",  
+    groq_api_key="",  
     model="llama-3.1-8b-instant",  # Specify the LLaMA model
     timeout=None,
     max_retries=2,
